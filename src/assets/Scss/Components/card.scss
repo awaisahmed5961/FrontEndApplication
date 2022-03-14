@@ -1,0 +1,51 @@
+.dashboard-card {
+    width: 100%;
+    min-height: 100px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 10px 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    &__image-container {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px; 
+        margin-right: 10px;
+
+        &-green {
+           background-color: green;;
+
+        }
+
+        &  img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    & div h6 {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 1px;
+        color: #121F3E;
+        opacity: 0.5;
+    }
+
+    & div div {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0.5px;
+        color: #121F3E;
+       
+    }
+}
